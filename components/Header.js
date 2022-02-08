@@ -29,6 +29,11 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
   h2 {
     margin-right: 20px;
   }
