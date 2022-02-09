@@ -31,7 +31,7 @@ export default function AppPromotion() {
 }
 
 const Container = styled.div`
-  height: 60vh;
+  height: 90vh;
   background-color: var(--yellow-color);
   background: linear-gradient(
     180deg,
