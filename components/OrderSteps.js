@@ -1,68 +1,58 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
+import styled from "styled-components";
 
 export default function OrderSteps() {
   return (
     <Container>
-        <Step>
-          <StepNum>1</StepNum>
-          <StepDetails>
-            <IconWrapper>
-              <Image
-                src="/assets/step1.svg"
-                alt="step1"
-                height={80}
-                width={50}
-              />
-            </IconWrapper>
-            <h2>دخل معلومات جهازك</h2>
-            <span>
-              اختر نوع جهازك والمشكلة اللي تواجهك
-              <br />
-              وبتظهر لك تسعيرة الاصلاح
-            </span>
-          </StepDetails>
-        </Step>
-        <Step>
-          <StepNum>2</StepNum>
-          <StepDetails>
-            <IconWrapper>
-              <Image
+      <Step>
+        <StepNum>1</StepNum>
+        <StepDetails>
+          <IconWrapper>
+            <Image src="/assets/step1.svg" alt="step1" height={80} width={50} />
+          </IconWrapper>
+          <h2>دخل معلومات جهازك</h2>
+          <span>
+            اختر نوع جهازك والمشكلة اللي تواجهك
+            <br />
+            وبتظهر لك تسعيرة الاصلاح
+          </span>
+        </StepDetails>
+      </Step>
+      <Step>
+        <StepNum>2</StepNum>
+        <StepDetails>
+          <IconWrapper>
+            {/* <Image
                 src="/assets/step2.svg"
                 alt="step2"
                 height={80}
                 width={70}
-              />
-            </IconWrapper>
-            <h2>ارفع طلب الصيانة</h2>
-            <span>
-              الطلب وصل للفني وبيكون عندك <br />
-              في أقرب وقت
-            </span>
-          </StepDetails>
-        </Step>
-        <Step>
-          <StepNum>3</StepNum>
-          <StepDetails>
-            <IconWrapper>
-              <Image
-                src="/assets/step3.svg"
-                alt="step3"
-                height={80}
-                width={50}
-              />
-            </IconWrapper>
-            <h2>تم إصلاح جوالك</h2>
-            <span>
-              الفني المحترف بيصلح جوالك وبيرجع <br />
-              زي الجديد
-            </span>
-          </StepDetails>
-        </Step>
-      </Container>
-  )
+              /> */}
+          </IconWrapper>
+          <h2>ارفع طلب الصيانة</h2>
+          <span>
+            الطلب وصل للفني وبيكون عندك <br />
+            في أقرب وقت
+          </span>
+        </StepDetails>
+      </Step>
+      <Step>
+        <StepNum>3</StepNum>
+        <StepDetails>
+          <IconWrapper>
+            <Image src="/assets/step3.svg" alt="step3" height={80} width={50} />
+          </IconWrapper>
+          <h2>تم إصلاح جوالك</h2>
+          <span>
+            الفني المحترف بيصلح جوالك وبيرجع <br />
+            زي الجديد
+          </span>
+        </StepDetails>
+      </Step>
+    </Container>
+  );
 }
-
 
 const Container = styled.div`
   box-shadow: 0px 0px 12px 7px rgba(241, 209, 97, 0.12);
