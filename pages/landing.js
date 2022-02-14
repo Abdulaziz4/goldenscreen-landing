@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import AppPromotion from "../components/AppPromotion";
 import OrderSteps from "../components/OrderSteps";
 import Features from "../components/Features";
+import Footer from "../components/Footer";
 
 export default function Landing() {
   return (
@@ -13,10 +14,14 @@ export default function Landing() {
       <AppPromotion />
       <OrderSteps />
       <Features />
+      <Footer />
     </Container>
   );
 }
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+
+  font-family: "Cairo", sans-serif;
 `;

@@ -23,12 +23,7 @@ export default function OrderSteps() {
         <StepNum>2</StepNum>
         <StepDetails>
           <IconWrapper>
-            {/* <Image
-                src="/assets/step2.svg"
-                alt="step2"
-                height={80}
-                width={70}
-              /> */}
+            <Image src="/assets/step2.svg" alt="step2" height={80} width={70} />
           </IconWrapper>
           <h2>ارفع طلب الصيانة</h2>
           <span>
