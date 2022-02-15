@@ -18,10 +18,18 @@ export default function AppPromotion() {
         </AppText>
         <PlatformsBadge>
           <DownloadImage>
-            <Image src="/assets/appstore-badge.svg" alt="" layout="fill" />
+            <a
+              href="https://play.google.com/store/apps/details?id=com.app.goldenscreen"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image src="/assets/googleplay-badge.svg" alt="" layout="fill" />
+            </a>
           </DownloadImage>
           <DownloadImage>
-            <Image src="/assets/googleplay-badge.svg" alt="" layout="fill" />
+            <a href="https://apple.co/3GV8DFi" target="_blank" rel="noreferrer">
+              <Image src="/assets/appstore-badge.svg" alt="" layout="fill" />
+            </a>
           </DownloadImage>
         </PlatformsBadge>
       </AppInfo>
@@ -115,6 +123,7 @@ const DownloadImage = styled.div`
   height: 130px;
   width: 250px;
   position: relative;
+  cursor: pointer;
   @media only screen and (max-width: 768px) {
     height: 90px;
   }

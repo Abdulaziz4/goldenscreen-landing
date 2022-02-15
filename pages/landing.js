@@ -22,6 +22,6 @@ export default function Landing() {
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-
+  overflow-x: hidden;
   font-family: "Cairo", sans-serif;
 `;

@@ -25,7 +25,7 @@ export default function Header() {
       </LogoAndTitle>
 
       <LinkContaienr>
-        <a href="https://wa.me/966546125784" target="_blank" rel="noreferrer">
+        <a href="https://wa.me/966501433544" target="_blank" rel="noreferrer">
           <Image
             src="/assets/whatsapp-logo.svg"
             alt="logo"
