@@ -47,13 +47,13 @@ const FeatContainer = styled.div`
   @media only screen and (max-width: 750px) {
     grid-template-columns: repeat(1, 1fr);
     margin: 20px 40px;
-    gap: 30px;
+    gap: 50px;
   }
 `;
 
 const FeatureCard = styled.div`
   background: #fdfdfd;
-  box-shadow: 5px 5px 50px rgba(255, 235, 175, 0.4);
+  box-shadow: 5px 5px 30px rgba(255, 235, 175, 0.4);
   border-radius: 10px;
   padding: 50px;
   color: var(--text-color);
@@ -67,6 +67,17 @@ const FeatureCard = styled.div`
   h2 {
     font-size: 27px;
   }
+  @media only screen and (max-width: 750px) {
+    box-shadow: 4px 4px 20px rgba(255, 235, 175, 0.4);
+  }
+  @media only screen and (max-width: 400px) {
+    p {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+  }
 `;
 
 const CrossedHeadline = styled.div`
@@ -77,11 +88,18 @@ const CrossedHeadline = styled.div`
   color: var(--text-color);
   h1 {
     position: relative;
-    top: -27px;
+    top: -40px;
+  }
+  @media only screen and (max-width: 520px) {
+    h1 {
+      font-size: 28px;
+      top: -35px;
+    }
   }
 `;
 
 const BackLine = styled.div`
+  margin-top: 30px;
   height: 10px;
   background-color: var(--yellow-color);
 `;

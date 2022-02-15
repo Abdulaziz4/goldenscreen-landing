@@ -11,6 +11,7 @@ export default function Footer() {
 
 const ContainerFooter = styled.div`
   height: 14vh;
+  margin-top: 70px;
   background-color: var(--yellow-color);
   color: var(--text-color);
   display: flex;
@@ -18,4 +19,9 @@ const ContainerFooter = styled.div`
   justify-content: flex-end;
   padding: 10px;
   font-weight: 200;
+  @media only screen and (max-width: 520px) {
+    h3 {
+      font-size: 15px;
+    }
+  }
 `;
