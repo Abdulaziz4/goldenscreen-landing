@@ -13,9 +13,7 @@ export default function OrderSteps() {
           </IconWrapper>
           <h2>دخل معلومات جهازك</h2>
           <span>
-            اختر نوع جهازك والمشكلة اللي تواجهك
-            <br />
-            وبتظهر لك تسعيرة الاصلاح
+            اختر نوع جهازك والمشكلة اللي تواجهك وبتظهر لك تسعيرة الاصلاح
           </span>
         </StepDetails>
       </Step>
@@ -26,10 +24,7 @@ export default function OrderSteps() {
             <Image src="/assets/step2.svg" alt="step2" height={80} width={70} />
           </IconWrapper>
           <h2>ارفع طلب الصيانة</h2>
-          <span>
-            الطلب وصل للفني وبيكون عندك <br />
-            في أقرب وقت
-          </span>
+          <span>الطلب وصل للفني وبيكون عندك في أقرب وقت</span>
         </StepDetails>
       </Step>
       <Step>
@@ -39,10 +34,7 @@ export default function OrderSteps() {
             <Image src="/assets/step3.svg" alt="step3" height={80} width={50} />
           </IconWrapper>
           <h2>تم إصلاح جوالك</h2>
-          <span>
-            الفني المحترف بيصلح جوالك وبيرجع <br />
-            زي الجديد
-          </span>
+          <span>الفني المحترف بيصلح جوالك وبيرجع زي الجديد</span>
         </StepDetails>
       </Step>
     </Container>
@@ -60,15 +52,22 @@ const Container = styled.div`
   justify-content: space-between;
   gap: 50px;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 900px) {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    padding: 20px 50px;
+  }
+
+  @media only screen and (max-width: 520px) {
+    margin: 90px 35px;
+    padding: 20px !important;
   }
 `;
 
 const Step = styled.div`
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   gap: 13px;
 `;
 
@@ -88,6 +87,23 @@ const StepDetails = styled.div`
   display: flex;
   flex-direction: column;
   color: var(--text-color);
+  @media only screen and (max-width: 520px) {
+    h2 {
+      font-size: 22px;
+    }
+    span {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    h2 {
+      font-size: 22px;
+    }
+    span {
+      font-size: 18px;
+    }
+  }
 `;
 
 const IconWrapper = styled.div`
