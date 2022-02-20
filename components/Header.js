@@ -23,17 +23,6 @@ export default function Header() {
         <Image src="/assets/gs-logo.svg" alt="logo" height={65} width={40} />
         <h2>الشاشة الذهبية</h2>
       </LogoAndTitle>
-
-      <LinkContaienr>
-        <a href="https://wa.me/966501433544" target="_blank" rel="noreferrer">
-          <Image
-            src="/assets/whatsapp-logo.svg"
-            alt="logo"
-            height={50}
-            width={30}
-          />
-        </a>
-      </LinkContaienr>
     </Container>
   );
 }
@@ -67,6 +56,11 @@ const Container = styled.div`
 const LogoAndTitle = styled.div`
   display: flex;
   align-items: center;
+  @media only screen and (max-width: 750px) {
+    h2 {
+      font-size: 20px;
+    }
+  }
 `;
 
 const LinkContaienr = styled.div`
