@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import Head from "next/head";
-import Image from "next/image";
+import Footer from "../components/Footer";
 import GlobalStyle from "../styles/globals";
 import Landing from "./landing";
 
@@ -27,7 +28,9 @@ export default function Home() {
         <Landing />
       </main>
 
-      {/* <footer></footer> */}
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

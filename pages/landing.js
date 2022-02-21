@@ -1,11 +1,8 @@
 import styled from "styled-components";
-import Image from "next/image";
-import Link from "next/link";
 import Header from "../components/Header";
 import AppPromotion from "../components/AppPromotion";
 import OrderSteps from "../components/OrderSteps";
 import Features from "../components/Features";
-import Footer from "../components/Footer";
 
 export default function Landing() {
   return (
@@ -14,7 +11,6 @@ export default function Landing() {
       <AppPromotion />
       <OrderSteps />
       <Features />
-      <Footer />
     </Container>
   );
 }
