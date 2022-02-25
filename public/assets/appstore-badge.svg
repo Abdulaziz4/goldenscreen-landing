@@ -1,4 +1,5 @@
-<svg width="255" height="82" viewBox="0 0 255 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="255" height="82" viewBox="0 0 255 82" fill="none" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges"
+>
 <g filter="url(#filter0_d_725_225)">
 <rect x="4.5" y="0.5" width="246" height="73" rx="4.5" fill="#2F2F2F" stroke="black"/>
 <path d="M59.3716 18.6664C57.5755 18.7844 55.4762 19.8761 54.2529 21.2977C53.137 22.5873 52.2189 24.5027 52.5769 26.3642C54.5392 26.4222 56.567 25.3045 57.7419 23.8589C58.841 22.5133 59.6727 20.6099 59.3716 18.6664Z" fill="white"/>

@@ -1,4 +1,5 @@
-<svg width="255" height="82" viewBox="0 0 255 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="255" height="82" viewBox="0 0 255 82" fill="none" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges"
+>
 <g filter="url(#filter0_d_725_212)">
 <rect x="4.5" y="0.5" width="246" height="73" rx="4.5" fill="#2F2F2F" stroke="black"/>
 <g clip-path="url(#clip0_725_212)">
