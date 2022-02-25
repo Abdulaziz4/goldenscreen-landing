@@ -6,7 +6,6 @@ import { useState } from "react";
 
 export default function Header() {
   const [isTranspernt, setIsTranspernt] = useState(true);
-  console.log(isTranspernt);
   const changeColor = () => {
     if (window.scrollY > window.innerHeight * 0.8 - 80) {
       setIsTranspernt(false);
