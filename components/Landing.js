@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import Header from "../components/Header";
-import AppPromotion from "../components/AppPromotion";
-import OrderSteps from "../components/OrderSteps";
-import Features from "../components/Features";
+import Header from "./Header";
+import AppPromotion from "./AppPromotion";
+import OrderSteps from "./OrderSteps";
+import Features from "./Features";
 
 export default function Landing() {
   return (

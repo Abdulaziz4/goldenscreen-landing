@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import GlobalStyle from "../styles/globals";
-import Landing from "./landing";
+import Landing from "../components/Landing";
 
 // TODO: Edit sitemap file to include domain
 export default function Home() {
