@@ -4,7 +4,6 @@ import Footer from "../components/Footer";
 import GlobalStyle from "../styles/globals";
 import Landing from "../components/Landing";
 
-// TODO: Edit sitemap file to include domain
 export default function Home() {
   return (
     <div>

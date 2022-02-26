@@ -12,8 +12,8 @@ export default function AppPromotion() {
             <BoldSpan>في مكانك</BoldSpan>
           </h1>
           <AppDescription>
-            خدمة صيانة جوالات متنقلة سريعة بتركيب <br />
-            مجاني بأيدي احترافية وين ماكنت في الرياض
+            خدمة صيانة جوالات متنقلة سريعة <br />
+            بأيدي احترافية وين ماكنت في الرياض
           </AppDescription>
         </AppText>
         <PlatformsBadge>
