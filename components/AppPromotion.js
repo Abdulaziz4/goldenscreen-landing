@@ -123,7 +123,12 @@ const DownloadImage = styled.div`
   height: 130px;
   width: 250px;
   position: relative;
-  cursor: pointer;
+
+  a {
+    cursor: pointer;
+    -webkit-box-shadow: 1px 5px 25px 5px rgba(0, 0, 0, 0.27);
+    box-shadow: 1px 5px 25px 5px rgba(0, 0, 0, 0.27);
+  }
   @media only screen and (max-width: 768px) {
     height: 90px;
   }
