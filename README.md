@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Golden Screen Landing Page
+This is a landing page for goldeen screen brand created using Next.js for maximum SEO 🤩.
 
-## Getting Started
+Checkout the page [Here](https://www.goldenscreen.app/) 
 
-First, run the development server:
+# 🧰 Built With
+- React.js
+- Next.js
+- Styled-components
+- Vercel for deployment
+
+# ✨  Installition 
+### 1\. Clone this Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/Abdulaziz4/goldenscreen-landing.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2\. Navigate to the directory
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+cd goldenscreen-landing
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### 3\. Install dependencies
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+yarn install
+# or
+npm install
+```
 
-## Learn More
+### 5\. Run Dev Server
 
-To learn more about Next.js, take a look at the following resources:
+```
+yarn dev
+# or
+npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# for an optomized build use
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+MIT
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Free Software, Hell Yeah!**
+
