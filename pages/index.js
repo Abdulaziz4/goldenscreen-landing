@@ -3,10 +3,11 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import GlobalStyle from "../styles/globals";
 import Landing from "../components/Landing";
+import Script from "next/script";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <GlobalStyle />
       <Head>
         <title>
@@ -54,6 +55,7 @@ export default function Home() {
           name="viewport"
           content="width=device-width, initial-scale=1.0, viewport-fit=cover"
         />
+
       </Head>
 
       <main>
@@ -63,6 +65,19 @@ export default function Home() {
       <footer>
         <Footer />
       </footer>
-    </div>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=UA-222174087-1"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-222174087-1');
+        `}
+      </Script>
+    </>
   );
 }
