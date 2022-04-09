@@ -16,21 +16,49 @@ export default function AppPromotion() {
             بأيدي احترافية وين ماكنت في الرياض
           </AppDescription>
         </AppText>
+
         <PlatformsBadge>
-          <DownloadImage>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.app.goldenscreen"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Image src="/assets/googleplay-badge.svg" alt="" layout="fill" />
-            </a>
-          </DownloadImage>
-          <DownloadImage>
-            <a href="https://apple.co/3GV8DFi" target="_blank" rel="noreferrer">
-              <Image src="/assets/appstore-badge.svg" alt="" layout="fill" />
-            </a>
-          </DownloadImage>
+          <StoresBadges>
+            <DownloadImage>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.app.goldenscreen"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  src="/assets/googleplay-badge.svg"
+                  alt=""
+                  layout="fill"
+                />
+              </a>
+            </DownloadImage>
+            <DownloadImage>
+              <a
+                href="https://apple.co/3GV8DFi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image src="/assets/appstore-badge.svg" alt="" layout="fill" />
+              </a>
+            </DownloadImage>
+          </StoresBadges>
+
+          <PlatformsDivider>
+            <Divider />
+            <h4>او</h4>
+            <Divider />
+          </PlatformsDivider>
+          <WhatsappWrapper>
+            <DownloadImage>
+              <a
+                href="https://wa.me/966501433544"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image src="/assets/whatsapp-badge.svg" alt="" layout="fill" />
+              </a>
+            </DownloadImage>
+          </WhatsappWrapper>
         </PlatformsBadge>
       </AppInfo>
       <HeaderIllustration>
@@ -41,7 +69,7 @@ export default function AppPromotion() {
 }
 
 const Container = styled.div`
-  height: 80vh;
+  height: 100vh;
   background-color: var(--yellow-color);
   background: linear-gradient(
     180deg,
@@ -60,12 +88,12 @@ const Container = styled.div`
     justify-content: unset;
     align-items: unset !important;
     padding-top: 120px;
-    height: 100vh;
+    height: 120vh;
   }
   @media only screen and (max-width: 1050px) {
     align-items: center;
   }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 420px) {
     height: 120vh;
   }
 `;
@@ -110,18 +138,19 @@ const AppDescription = styled.span`
 `;
 
 const PlatformsBadge = styled.div`
-  margin: 20px 40px;
-  gap: 20px;
+  margin: 20px 30px;
+  /* gap: 20px; */
   display: flex;
+  flex-direction: column;
   @media only screen and (max-width: 1050px) {
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 5px;
   }
 `;
 
 const DownloadImage = styled.div`
-  height: 130px;
   width: 250px;
+  height: 100px;
   position: relative;
 
   a {
@@ -155,4 +184,31 @@ const AppText = styled.div`
   @media only screen and (max-width: 680px) {
     margin-left: auto;
   }
+`;
+
+const PlatformsDivider = styled.div`
+  display: flex;
+  align-items: center;
+  h4 {
+    margin: 0 14px;
+  }
+`;
+
+const Divider = styled.div`
+  height: 5px;
+  border-radius: 12px;
+  background-color: #f8f8ff;
+  width: 100%;
+`;
+const StoresBadges = styled.div`
+  display: flex;
+  gap: 15px;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    gap: 5px;
+  }
+`;
+
+const WhatsappWrapper = styled.div`
+  margin: 0 auto;
 `;
