@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect } from "react";
 import { useState } from "react";
 
@@ -22,6 +21,9 @@ export default function Header() {
         <Image src="/assets/gs-logo.svg" alt="logo" height={65} width={40} />
         <h2>الشاشة الذهبية</h2>
       </LogoAndTitle>
+      <a href="https://maroof.sa/234425" target="_blank" rel="noreferrer">
+      <Image src="/assets/maroof.svg" alt="logo" height={75} width={75} />
+      </a>
     </Container>
   );
 }
