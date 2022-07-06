@@ -5,10 +5,10 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <ContainerFooter>
-      <h3>جميع الحقوق محفوظة للشاشة الذهبية {new Date().getFullYear()}</h3>
+      <h5>جميع الحقوق محفوظة للشاشة الذهبية {new Date().getFullYear()}</h5>
       <a href="https://maroof.sa/234425" target="_blank" rel="noreferrer">
-       <Image src="/assets/maroof.svg" alt="logo" height={75} width={75} />
-       <h4>موثق لدى معروف</h4>
+       <Image src="/assets/maroof.svg" alt="logo" height={60} width={60} />
+       <p>موثق لدى معروف</p>
       </a>
     </ContainerFooter>
   );
@@ -29,6 +29,10 @@ const ContainerFooter = styled.div`
     display:flex ;
     flex-direction:column ;
     align-items:center ;
+
+    p{
+      font-size: 14px;
+    }
   }
   @media only screen and (max-width: 520px) {
     h3 {

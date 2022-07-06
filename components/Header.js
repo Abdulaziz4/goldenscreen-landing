@@ -19,10 +19,10 @@ export default function Header() {
     <Container isTranspernt={isTranspernt}>
       <LogoAndTitle>
         <Image src="/assets/gs-logo.svg" alt="logo" height={65} width={40} />
-        <h2>الشاشة الذهبية</h2>
+        <h3>الشاشة الذهبية</h3>
       </LogoAndTitle>
       <a href="https://maroof.sa/234425" target="_blank" rel="noreferrer">
-      <Image src="/assets/maroof.svg" alt="logo" height={75} width={75} />
+      <Image src="/assets/maroof.svg" alt="logo" height={50} width={50} />
       </a>
     </Container>
   );
@@ -49,7 +49,7 @@ const Container = styled.div`
   -moz-transition: background 0.4s 0s ease;
   -o-transition: background 0.4s 0s ease;
   transition: background 0.4s 0s ease;
-  h2 {
+  h3 {
     margin-right: 20px;
   }
 `;
@@ -58,7 +58,7 @@ const LogoAndTitle = styled.div`
   display: flex;
   align-items: center;
   @media only screen and (max-width: 750px) {
-    h2 {
+    h3 {
       font-size: 20px;
     }
   }
