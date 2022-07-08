@@ -22,7 +22,7 @@ export default function Header() {
         <h3>الشاشة الذهبية</h3>
       </LogoAndTitle>
       <a href="https://maroof.sa/234425" target="_blank" rel="noreferrer">
-      <Image src="/assets/maroof.svg" alt="logo" height={50} width={50} />
+      <Image src="/assets/maroof.svg" alt="logo" height={57} width={57} />
       </a>
     </Container>
   );
