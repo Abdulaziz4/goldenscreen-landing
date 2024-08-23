@@ -18,36 +18,6 @@ export default function AppPromotion() {
         </AppText>
 
         <PlatformsBadge>
-          <StoresBadges>
-            <DownloadImage>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.app.goldenscreen"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  src="/assets/googleplay-badge.svg"
-                  alt=""
-                  layout="fill"
-                />
-              </a>
-            </DownloadImage>
-            <DownloadImage>
-              <a
-                href="https://apple.co/3GV8DFi"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image src="/assets/appstore-badge.svg" alt="" layout="fill" />
-              </a>
-            </DownloadImage>
-          </StoresBadges>
-
-          <PlatformsDivider>
-            <Divider />
-            <h4>او</h4>
-            <Divider />
-          </PlatformsDivider>
           <WhatsappWrapper>
             <DownloadImage>
               <a
